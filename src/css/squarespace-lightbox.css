@@ -1,0 +1,506 @@
+
+.sqs-gallery-block-grid .slide .margin-wrapper .content-wrapper.video-lightbox-wrapper {
+  cursor: pointer
+}
+
+.sqs-gallery-block-grid .slide .margin-wrapper .content-wrapper.video-lightbox-wrapper .sqs-video-wrapper .intrinsic {
+  pointer-events: none
+}
+
+.sqs-lightbox-overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  background: #000;
+  height: 100%;
+  width: 100%
+}
+
+.sqs-lightbox-overlay.sqs-lightbox-overlay-style-orb {
+  background: -moz-radial-gradient(center 45deg, circle farthest-corner, rgba(0, 0, 0, .75) 0%, #000 100%)
+}
+
+.sqs-lightbox-overlay.light {
+  background: rgba(242, 242, 242, .98) !important;
+  color: #3e3e3e
+}
+
+.sqs-lightbox-overlay.white.sqs-lightbox-overlay-style-orb {
+  background: -moz-radial-gradient(center 45deg, circle farthest-corner, from(rgba(255, 255, 255, .96)), to(#fff))
+}
+
+
+.sqs-block-image .image-block-lightbox {
+  cursor: pointer;
+  display: block
+}
+
+.sqs-block-image .lightbox img {
+  cursor: pointer
+}
+
+.collection-type-gallery.gallery-design-grid.lightbox-style-light .yui3-lightbox2 .sqs-lightbox-overlay {
+  background: #fff
+}
+
+
+.form-block .lightbox-handle-wrapper--align-left {
+  text-align: left
+}
+
+.form-block .lightbox-handle-wrapper--align-center {
+  text-align: center
+}
+
+.form-block .lightbox-handle-wrapper--align-right {
+  text-align: right
+}
+
+.form-block .lightbox-handle {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 1em 2.5em;
+  color: #fff;
+  background-color: #272727;
+  border-width: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  text-transform: none
+}
+
+.sqs-modal-lightbox {
+  width: 100%;
+  font-size: 14px;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none
+}
+
+.sqs-modal-lightbox-content {
+  z-index: 100000000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0
+}
+
+.sqs-modal-lightbox-content .lightbox-background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .4
+}
+
+.sqs-modal-lightbox-content .lightbox-inner {
+  position: absolute;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 100%;
+  top: 0
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px;
+  background: #fff
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper {
+  color: #222;
+  font-family: inherit
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title {
+  font-size: 22px;
+  line-height: 1.2em;
+  margin-right: 22px;
+  color: #333
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form {
+  margin-top: 55px
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .radio .option {
+  margin-left: 1px
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content .lightbox-close {
+  position: absolute;
+  color: #333;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  width: 22px;
+  line-height: 22px;
+  top: 40px;
+  right: 40px;
+  text-align: center;
+  cursor: pointer
+}
+
+@media only screen and (max-width:600px) {
+  .sqs-modal-lightbox .lightbox-inner {
+    background: #fff
+  }
+  .sqs-modal-lightbox .lightbox-inner .lightbox-content {
+    margin-top: 0 !important
+  }
+}
+
+html.sqs-modal-lightbox-open,
+html.sqs-modal-lightbox-open body {
+  overflow: hidden
+}
+.tweak-product-quick-view-button-font {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase
+}
+
+.sqs-product-quick-view-button-wrapper {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-family: brandon-grotesque;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.tweak-product-quick-view-button-position-top .sqs-product-quick-view-button-wrapper {
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center
+}
+
+.tweak-product-quick-view-button-position-center .sqs-product-quick-view-button-wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center
+}
+
+.tweak-product-quick-view-button-position-bottom .sqs-product-quick-view-button-wrapper {
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  bottom: -1px
+}
+
+.tweak-product-quick-view-button-style-floating.tweak-product-quick-view-button-position-top .sqs-product-quick-view-button-wrapper {
+  padding-top: 1em
+}
+
+.tweak-product-quick-view-button-style-floating.tweak-product-quick-view-button-position-bottom .sqs-product-quick-view-button-wrapper {
+  padding-bottom: 1em
+}
+
+.no-touch .sqs-product-quick-view-button-hover-area:hover .sqs-product-quick-view-button-wrapper .sqs-product-quick-view-button {
+  opacity: 1
+}
+
+.sqs-product-quick-view-button-wrapper .sqs-product-quick-view-button {
+  opacity: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 6;
+  width: auto;
+  height: auto;
+  padding: 1em;
+  color: #1d1d1d;
+  background-color: #fff;
+  border-width: 0;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  -webkit-transition: opacity .3s ease-in;
+  -moz-transition: opacity .3s ease-in;
+  -ms-transition: opacity .3s ease-in;
+  transition: opacity .3s ease-in
+}
+
+.tweak-product-quick-view-button-style-bar .sqs-product-quick-view-button-wrapper .sqs-product-quick-view-button {
+  width: 100%
+}
+
+@media only screen and (max-width:640px) {
+  .sqs-product-quick-view-button-wrapper .sqs-product-quick-view-button-wrapper {
+    display: none !important
+  }
+}
+
+.sqs-product-quick-view-lightbox .sqs-product-quick-view-content {
+  padding: 15px
+}
+
+.tweak-product-item-gallery-position-left .sqs-product-quick-view-lightbox .sqs-product-quick-view-content .ProductItem-details {
+  padding: 30px 30px 30px 45px
+}
+
+.tweak-product-item-gallery-position-right .sqs-product-quick-view-lightbox .sqs-product-quick-view-content .ProductItem-details {
+  padding: 30px 45px 30px 30px
+}
+
+.sqs-product-quick-view-lightbox .ProductItem-gallery {
+  width: 60%
+}
+
+.sqs-product-quick-view-lightbox .ProductItem-details {
+  width: 40%
+}
+
+.sqs-product-quick-view-lightbox a.ProductItem-details-title-link {
+  border: none;
+  color: inherit;
+  text-decoration: none
+}
+
+.tweak-product-quick-view-lightbox-excerpt-display-hide .sqs-product-quick-view-lightbox .ProductItem-details-excerpt {
+  display: none
+}
+
+.sqs-product-quick-view-lightbox-next-button,
+.sqs-product-quick-view-lightbox-prev-button,
+.sqs-product-quick-view-lightbox-close-button {
+  position: fixed;
+  top: 50%;
+  width: 85%;
+  max-width: 900px;
+  height: 25px;
+  margin-top: -12.5px;
+  font-size: inherit;
+  line-height: 25px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.sqs-product-quick-view-lightbox-next-button:before,
+.sqs-product-quick-view-lightbox-prev-button:before,
+.sqs-product-quick-view-lightbox-close-button:before {
+  font-weight: bold
+}
+
+.sqs-product-quick-view-lightbox-next-button svg,
+.sqs-product-quick-view-lightbox-prev-button svg,
+.sqs-product-quick-view-lightbox-close-button svg {
+  width: 25px;
+  height: 25px
+}
+
+.sqs-product-quick-view-lightbox-next-button line,
+.sqs-product-quick-view-lightbox-prev-button line,
+.sqs-product-quick-view-lightbox-close-button line,
+.sqs-product-quick-view-lightbox-next-button polyline,
+.sqs-product-quick-view-lightbox-prev-button polyline,
+.sqs-product-quick-view-lightbox-close-button polyline {
+  stroke: #1d1d1d
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-next-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-prev-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-close-button polyline {
+  stroke-width: 2
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-next-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-prev-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-close-button polyline {
+  stroke-width: 4
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-next-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-prev-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-close-button polyline {
+  stroke-width: 6
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-next-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-prev-button polyline,
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-close-button polyline {
+  stroke-width: 8
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-next-button line,
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-prev-button line,
+.tweak-product-quick-view-lightbox-controls-weight-hairline .sqs-product-quick-view-lightbox-close-button line {
+  stroke-width: .8333333333333334
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-next-button line,
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-prev-button line,
+.tweak-product-quick-view-lightbox-controls-weight-light .sqs-product-quick-view-lightbox-close-button line {
+  stroke-width: 1.6666666666666667
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-next-button line,
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-prev-button line,
+.tweak-product-quick-view-lightbox-controls-weight-medium .sqs-product-quick-view-lightbox-close-button line {
+  stroke-width: 2.5
+}
+
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-next-button line,
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-prev-button line,
+.tweak-product-quick-view-lightbox-controls-weight-heavy .sqs-product-quick-view-lightbox-close-button line {
+  stroke-width: 3.3333333333333335
+}
+
+.sqs-product-quick-view-lightbox-next-button {
+  margin-left: 35px;
+  text-align: right
+}
+
+body:not(.tweak-product-quick-view-lightbox-show-arrows) .sqs-product-quick-view-lightbox-next-button {
+  opacity: 0
+}
+
+.sqs-product-quick-view-lightbox-prev-button {
+  margin-left: -35px
+}
+
+body:not(.tweak-product-quick-view-lightbox-show-arrows) .sqs-product-quick-view-lightbox-prev-button {
+  opacity: 0
+}
+
+.sqs-product-quick-view-lightbox-close-button {
+  top: 25px;
+  right: 12.5px;
+  width: 25px;
+  z-index: 100000000
+}
+
+.sqs-product-quick-view-lightbox-close-button svg {
+  width: 20px;
+  height: 20px
+}
+
+body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quick-view-lightbox-close-button {
+  opacity: 0
+}
+
+.sqs-product-quick-view-lightbox-element-hidden {
+  opacity: 0;
+  visibility: hidden;
+  cursor: default
+}
+
+.sqs-style-mode-active .sqs-product-quick-view-lightbox .sqs-product-quick-view {
+  pointer-events: none;
+  cursor: not-allowed;
+  cursor: no-drop
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox {
+  visibility: visible
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content .lightbox-background {
+  background: rgba(240, 240, 240, .6) !important;
+  opacity: 1
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content .lightbox-inner .lightbox-content {
+  width: 85%;
+  max-width: 900px;
+  padding: 0px;
+  background: #fff !important
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .lightbox-close {
+  display: none
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox~.sqs-widgets-confirmation {
+  z-index: 100000001
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox[hidden] {
+  visibility: hidden;
+  display: block !important
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox[hidden] .sqs-modal-lightbox-content {
+  left: -9999px;
+  opacity: 0;
+  transition: none
+}
+
+.sqs-product-quick-view-lightbox.sqs-modal-lightbox .sqs-modal-lightbox-content {
+  transition: opacity .15s ease-out
+}

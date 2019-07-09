@@ -1,0 +1,7 @@
+Mismatch questions:
+
+1) Proposed design changes:
+	- Social media icons (upper right corner): The user interface interaction with these icons is disconcerting; having a hover reaction on a control other than the one you are attempting to interact with is strange. Recommend an alternate interaction that impacts the control you are interacting with, rather than implying that neighboring controls are disabled.
+	- All interactive elements will need state changes on hover and focus.
+	- Links that are embedded within content need to have a clear indication that they are links. This should be a marker that is not ambiguous due to color or decoration. This applies only to blocks of text. Recommend: underline links.
+	
